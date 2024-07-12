@@ -10,4 +10,5 @@ TTS in Sinhala: Convert Sinhala text back into speech using a custom TTS model.
 
 # Installation:
 Ensure you have Python and pip installed. Then, install the necessary libraries:
+
 pip install torch transformers datasets gradio numpy torchaudio
