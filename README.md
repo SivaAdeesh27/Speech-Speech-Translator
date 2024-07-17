@@ -1,14 +1,17 @@
-## Speech-Speech-Translator
+# Speech-Speech-Translator
 
-This application enables speech-to-speech translation between English and Sinhala using ASR (Automatic Speech Recognition) and TTS (Text-to-Speech) models.
+This application enables speech-to-speech translation between English and Sinhala (bilingual) using ASR (Automatic Speech Recognition), TT(Text to Text) and TTS (Text-to-Speech) models.
 
-# Features:
-ASR in Sinhala and English: Convert spoken language into text using OpenAI Whisper models.
-Translation between Sinhala and English: Translate text from one language to another using pre-trained transformer models.
-TTS in English: Convert English text back into speech using Microsoft's SpeechT5 model.
-TTS in Sinhala: Convert Sinhala text back into speech using a custom TTS model.
+## Features:
 
-# Installation:
-Ensure you have Python and pip installed. Then, install the necessary libraries:
+When a user speaks, the Automatic Speech Recognition (ASR) system converts the speech into transcript. Next, the transcript is translated through a Text-to-Text translation system and the translated text is sent to a Text-to-Speech (TTS) system and the target speech is generated.
 
-pip install torch transformers datasets gradio numpy torchaudio
+## Installation:
+
+Ensure you have Python and pip installed. Then, install the necessary libraries using the requirements.txt file by:
+
+```bash
+pip install -r requirements.txt
+```
+
+
